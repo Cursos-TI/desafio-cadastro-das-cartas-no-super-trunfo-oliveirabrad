@@ -33,6 +33,7 @@ int main() {
     scanf("%f", &pib);
     printf("Quantidade de pontos turísticos na cidade:\n");
     scanf("%d", &turistico);
+    printf("\n");
     
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
@@ -42,7 +43,7 @@ int main() {
     printf("Código da cidade: %s\n", codigo);
     printf("População: %d\n", populacao);
     printf("Área (km²): %f\n", area);
-    prinft("PIB: %f\n", pib);
+    printf("PIB: %f\n", pib);
     printf("Pontos turísticos: %d\n", turistico);
 
     return 0;
