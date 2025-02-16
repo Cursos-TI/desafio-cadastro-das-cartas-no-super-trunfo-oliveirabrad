@@ -16,6 +16,10 @@ int main() {
     float area;
     float pib;
     int turistico;
+    float densidade;
+    float capita;
+    densidade = area / populacao;
+    capita = pib / populacao;
 
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
@@ -45,6 +49,8 @@ int main() {
     printf("Área (km²): %f\n", area);
     printf("PIB: %f\n", pib);
     printf("Pontos turísticos: %d\n", turistico);
+    printf("Densidade populacional: %f\n", densidade);
+    prinft("PIB per capita: %f\n", capita);
 
     return 0;
 }
